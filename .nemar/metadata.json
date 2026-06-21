@@ -1,27 +1,83 @@
 {
   "version": "2.0",
-  "dataset_id": "on003061",
-  "source": "openneuro",
-  "source_id": "ds003061",
+  "pipeline_stage": "enriched",
   "title": "EEG data from an auditory oddball task",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Arnaud Delorme": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds003061.v1.1.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on003061",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003061",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds003061.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "v1.2.1",
-  "recording_modality": [
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".gitattributes",
+    ".json",
+    ".m",
+    ".md",
+    ".set",
+    ".tsv",
+    ".wav"
+  ],
+  "description": "This dataset comprises EEG recordings from participants performing an auditory oddball task conducted at the Meditation Research Institute in Rishikesh, India. Participants completed three 13-minute sessions during which they were presented with 750 auditory stimuli consisting of standard tones (70%), oddball tones (15%), and distractor noise bursts (15%), while instructed to respond to oddball stimuli via keypad. The dataset provides a resource for investigating event-related potentials and cognitive processing of auditory stimuli.",
+  "methods_description": "EEG data were collected during three identical 13-minute sessions. Participants were seated either on the floor or in a chair with eyes closed in a darkened room. Auditory stimuli (750 total) were presented at 1 Hz with 25 ms Gaussian jitter: 70% standard tones (500 Hz, 60 ms), 15% oddball tones (1000 Hz, 60 ms), and 15% distractor noise bursts (1000 Hz, 60 ms). All stimuli had 5 ms rise and fall times. Participants responded to oddball stimuli via keypad.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "auditory oddball task"
+    },
+    {
+      "term": "Event-Related Potentials",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
+    },
+    {
+      "term": "P300"
+    },
+    {
+      "term": "attention"
+    },
+    {
+      "term": "cognitive processing"
+    },
+    {
+      "term": "India"
+    },
+    {
+      "term": "Rishikesh"
+    },
+    {
+      "term": "meditation"
+    }
+  ],
+  "source_hash": "408dbf19012a0bdc7d682e2bf1ac250a573b37c9d8279ffa91aaaaba0bf20d00"
 }
