@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on003061-blue)](https://doi.org/10.82901/nemar.on003061)
+
 Data collection took place at the Meditation Research Institute (MRI) in Rishikesh, India under the supervision of Arnaud Delorme, PhD. The project was approved by the local MRI Indian ethical committee and the ethical committee of the University of California San Diego (IRB project # 090731).
 
 Participants sat either on a blanket on the floor or on a chair for both experimental periods depending on their personal preference. They were asked to keep their eyes closed and all lighting in the room was turned off during data collection. An intercom allowed communication between the experimental and the recording room.
