@@ -40,7 +40,7 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "10.18112/openneuro.ds003061.v1.0.0",
+      "identifier": "10.18112/openneuro.ds003061.v1.1.2",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
     },
