@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "EEG data from an auditory oddball task",
-  "description": "EEG recordings from an auditory oddball task collected at the Meditation Research Institute in Rishikesh, India. Participants completed three sessions of a P300 paradigm with standard tones, oddball tones and white-noise distractors while sitting with their eyes closed in a darkened room. The dataset supports research on auditory event-related potentials and attention.",
-  "methods_description": "Participants completed three identical 13-minute sessions of 750 stimuli each. 70% were standard 500 Hz tones, 15% were oddball 1000 Hz tones and 15% were 1000 Hz white-noise distractors. Sounds lasted 60 ms with 5 ms ramps and were presented at 1 per second with a Gaussian jitter (SD 25 ms). Participants pressed a key on a keypad in response to oddball tones. They sat with eyes closed in a dark room.",
+  "description": "EEG recordings from an auditory oddball task collected at the Meditation Research Institute in Rishikesh, India. Participants completed three 13-minute sessions with eyes closed. Each session presented standard tones, oddball tones and white-noise distractors, and participants pressed a key in response to oddballs. The dataset supports research on auditory attention and event-related potentials such as the P300.",
+  "methods_description": "EEG was recorded with a Biosemi Active Two system at 1024 Hz using 10-20 standard caps. Each session presented 750 stimuli at about 1 per second with Gaussian jitter: 70% standard (500 Hz tone), 15% oddball (1000 Hz tone) and 15% distractor (white noise). Stimuli were delivered with the Psychophysics MATLAB toolbox. The raw data were resampled to 256 Hz with the Biosemi tool and converted to EEGLAB format.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -23,14 +23,12 @@
       "term": "event-related potentials"
     },
     {
-      "term": "Attention",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D001288"
+      "term": "meditation"
     },
     {
-      "term": "Meditation",
+      "term": "Electroencephalography",
       "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D019122"
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     }
   ],
   "related_identifiers": [
@@ -40,19 +38,14 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "10.18112/openneuro.ds003061.v1.1.2",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
-    },
-    {
-      "identifier": "10.18112/openneuro.ds003061.v1.1.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsDerivedFrom"
-    },
-    {
       "identifier": "https://nemar.org/dataset/on003061",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds003061.v1.1.2",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "resource_type_specific": "EEG Dataset",
@@ -60,7 +53,7 @@
     "eeg"
   ],
   "sizes": [
-    "2.30 GB (44 files)"
+    "2.31 GB (45 files)"
   ],
   "formats": [
     ".gitattributes",
@@ -72,5 +65,5 @@
     ".wav",
     ".yml"
   ],
-  "source_hash": "7078b32408e06dd7fec40a870708b5e0d15a6f1916bdfc7dd23589d789b114da"
+  "source_hash": "4b09c7e763ba90e241395da8f21b87e3558b5b62e3cb822e217dae4f80270863"
 }
