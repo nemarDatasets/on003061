@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "EEG data from an auditory oddball task",
-  "description": "EEG recordings from an auditory oddball task collected at the Meditation Research Institute in Rishikesh, India. Participants completed three 13-minute sessions with eyes closed. Each session presented standard tones, oddball tones and white-noise distractors, and participants pressed a key in response to oddballs. The dataset supports research on auditory attention and event-related potentials such as the P300.",
-  "methods_description": "EEG was recorded with a Biosemi Active Two system at 1024 Hz using 10-20 standard caps. Each session presented 750 stimuli at about 1 per second with Gaussian jitter: 70% standard (500 Hz tone), 15% oddball (1000 Hz tone) and 15% distractor (white noise). Stimuli were delivered with the Psychophysics MATLAB toolbox. The raw data were resampled to 256 Hz with the Biosemi tool and converted to EEGLAB format.",
+  "description": "EEG recordings from an auditory oddball task collected at the Meditation Research Institute in Rishikesh, India. Participants completed three 13-minute sessions with standard tones, oddball tones and white-noise distractors, with eyes closed, and responded to oddballs with a keypress. The dataset supports study of auditory event-related potentials such as the P300.",
+  "methods_description": "Data were recorded with an Active Two Biosemi system at 1024 Hz using 10-20 standard caps. Each of three sessions presented 750 stimuli (70% standard 500 Hz tones, 15% oddball 1000 Hz tones, 15% white-noise distractors) at about 1 per second with Gaussian jitter. Stimuli were presented with the Psychophysics Toolbox in MATLAB. Raw data were resampled to 256 Hz with the Biosemi tool and converted to EEGLAB format.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -23,12 +23,14 @@
       "term": "event-related potentials"
     },
     {
-      "term": "meditation"
+      "term": "Auditory Perception",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D001307"
     },
     {
-      "term": "Electroencephalography",
+      "term": "Meditation",
       "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+      "value_uri": "http://id.nlm.nih.gov/mesh/D019122"
     }
   ],
   "related_identifiers": [
